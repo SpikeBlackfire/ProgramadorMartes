@@ -1,0 +1,112 @@
+<<<<<<< HEAD
+
+
+article{
+    color: blue;
+    position: relative;
+    left:3.5%;
+} 
+
+h1{
+    color: grey  ;
+   
+    font-size: 44px;
+}
+
+h4{
+    font-size: 30px   ;
+}
+
+#YT_link:hover {
+font-size: larger;
+background-color:teal;
+}
+
+
+ol{
+    font-family: monospace;
+}
+
+i{
+   font-style:oblique;
+   font-size: x-small;
+   
+}
+i:hover{
+    font-size: xx-large;
+}
+
+#header{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#header:hover{
+    color:goldenrod;
+}
+
+.article{
+    padding-right: 5%;
+    position: relative;
+    width: 80%;
+
+}
+
+footer:hover{
+    font-size: x-large;
+=======
+
+
+article{
+    color: blue;
+    position: relative;
+    left:3.5%;
+} 
+
+h1{
+    color: grey  ;
+   
+    font-size: 44px;
+}
+
+h4{
+    font-size: 30px   ;
+}
+
+#YT_link:hover {
+font-size: larger;
+background-color:teal;
+}
+
+
+ol{
+    font-family: monospace;
+}
+
+i{
+   font-style:oblique;
+   font-size: x-small;
+   
+}
+i:hover{
+    font-size: xx-large;
+}
+
+#header{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#header:hover{
+    color:goldenrod;
+}
+
+.article{
+    padding-right: 5%;
+    position: relative;
+    width: 80%;
+
+}
+
+footer:hover{
+    font-size: x-large;
+>>>>>>> 99beb17e1336eab6e982b0f2b9de3b8a656a4ca1
+}
