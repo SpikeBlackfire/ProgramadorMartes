@@ -1,13 +1,13 @@
 <h1>{{title}}</h1>
 
 {{#if conocido}}
-<p>Hola {{nombre}} <a href="/salir">Salir</a></p>
+<p>Hola {{nombre}} <a href="/salir">Cerrar Sesión</a></p>
 {{/if}}
 
 {{#unless conocido}}
 <p>No te conozco, Bai</p>
 
 <form action="/ingresar" method="post">
-    <input type="text" name="nombre"><button>ingresar</button>
+    <input type="text" name="nombre"><button>Login</button>
 </form>
 {{/unless}}
