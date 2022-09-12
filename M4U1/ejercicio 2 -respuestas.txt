@@ -1,0 +1,31 @@
+1) ¿Cuáles son los nombres y la ocupación de cada uno de los empleados?
+2) ¿Cuál es el nombre y la edad de cada uno de los empleados?
+3) ¿Cuál es el nombre y la edad de todos los programadores?
+4) ¿Cuáles son los empleados de mas de 30 años?
+5) ¿Cuál es el apellido y el mail de los empleados llamados Juan?
+6) ¿Cuál es el nombre de las personas que trabajan como Programadores o Desarrolladores Web?
+7) Mostrar una lista (id_emp, nombre, apellido, trabajo) de las personas cuyo numero de empleado esté entre 15 y 20.
+8) ¿Cuáles son los Programadores que ganan menos de $80000?
+9) ¿Cuáles son los Programadores que ganan entre $75000 y  $90000?
+10) ¿Cuáles son los trabajadores cuyo apellido comienza con S?
+11) ¿Cuáles son los trabajadores cuyo nombre termina en l?
+12) Agregar un empleado con ID_empleado 22 con los siguientes datos: Francisco Perez,  Programador, 26 años, salario 90000, mail: francisco@bignet.com.
+13) Borrar los datos de Hernan Rosso.
+14) Modificar el salario de Daniel Gutierrez a 90000.
+
+
+
+1)SELECT Nombre , Trabajo FROM `empleados`
+2)SELECT Nombre , Edad FROM `empleados`
+3)SELECT Nombre , Edad FROM `empleados` WHERE Trabajo = 'Programador';
+4)SELECT Nombre  FROM `empleados` WHERE Edad >= 30;
+5)SELECT Nombre, Mail  FROM `empleados` WHERE Nombre LIKE 'Juan';
+6)SELECT Nombre  FROM `empleados` WHERE Trabajo LIKE 'Programador' OR 'Desarrolladores Web';
+7)SELECT ID_Empleado,Nombre,Apellido,Trabajo from empleados WHERE ID_Empleado BETWEEN 15 and 20;
+8)SELECT Nombre, Apellido FROM `empleados` WHERE Salario < 80000;
+9)SELECT Nombre, Apellido FROM `empleados` WHERE Salario BETWEEN 80000 AND 90000;
+10)SELECT Nombre, Apellido FROM `empleados` WHERE Apellido LIKE 'S%'
+11)SELECT Nombre, Apellido FROM `empleados` WHERE Apellido LIKE '%l'
+12)En tabla
+13)DELETE FROM `empleados` WHERE Nombre = 'Hernan'AND Apellido ='Rosso';  // EN TABLA 
+14)UPDATE `empleados` SET `Salario`='90000' WHERE `Nombre`='Daniel'AND `Apellido`='Gutierrez' // EN TABLA
